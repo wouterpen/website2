@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AfrichtingsstalPen-Aubert</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		$( document ).ready(function(){ 
+			$(".goAway").click(function(){
+				$(".horseblockpic").fadeOut(1000)});
+			$(".comeBack").click(function(){$(".horseblockpic").fadeIn(1000);
+		});
+	});
+		
+	</script>
+</head>
+<body>
+
+	<div class="header">
+		<H1>Horses for sale</H1>
+		<div1>
+		<form >
+		<table><tr><td><label>Username:</label></td>
+			<td><input class= "check" type="text" value="username" name=""> </td>		
+		</tr>
+		<tr><td><label>Password:</label></td>
+			<td><input class= "check" type="password" value="password" name=""></td></tr>
+		
+		</form>
+		<tr><td></td><td><button class= "check" id= "specific news">log in</button></td></tr>
+		<tr><td><label for ="questions">questions?</label></td>
+			<td><textarea></textarea></td></tr>
+			<tr><td></td><td><button class= "check" id= "specific">submit</button></td></tr>
+		</table>
+		</div1>
+	</div>
+
+	<script type="text/javascript">
+	
+	document.getElementById("specific news").onclick= nextPage
+
+	function nextPage(){
+		var x = document.getElementsByTagName("input")[0].value 
+		var y = document.getElementsByTagName("input")[1].value 
+		if (x === "Elaine" && y === "Pen"){
+			window.location.href = 'specificinfo.html';
+		}
+		else { alert("that is wrong")
+			}
+	}
+
+	</script>
+
+	<div id="dummie">
+	</div>
+
+	<div id="leftblockdummie"></div>
+	<div id="rightblockdummie"></div>
+
+	<div id="leftblock">
+		<a href="test.html" target="_blank"><img src="LogoElainePen.jpg"></a><div class="box"><iframe src="test.html" width = "1000px" height = "500px"></iframe></div>
+		<p>
+		Personalia <br>
+		Naam: Elaine Pen <br>
+		Geboortedatum: 02-02-1990 <br>
+		Woonplaats: Leiden <br><br>
+
+		Opleidingen <br>
+		Master Encyclopedie en Filosofie van het Recht – Rechten - Universiteit Leiden <br>
+		Suptopcoach Niveau 5 – KNHS <br><br>
+
+		Sportstatus <br>
+		Sport: Eventing <br>
+		A-status NOC*NSF <br>
+		Olympisch kader KNHS – Eventing <br><br>
+
+		Opmerkelijke Prestaties <br><br>
+
+		2015<br>
+		CIC1* Eventing Maarsbergen - 2e plaats - Chivers<br>
+		CIC1* Eventing Maarsbergen - 4e plaats - Blue Nile<br>
+		CIC1* Eventing Castenray - 5e plaats - Aristocraat<br>
+		CIC1* North Holland Horse Trials - 5e plaats - Chivers<br>
+		CIC1* Barroca d'Alva - 6e plaats - Chivers <br><br>
+</p>
+
+	</div>
+
+
+
+	<div id="rightblock">
+		<h2>Sponsered by:</h2>
+		<a href="https://nl.bavaria.com/nl/nl/age-check.html/?RD=https://nl.bavaria.com/nl/nl.html/" target="_blank"><img src="bavaria.jpeg"></a>
+		<a href="https://nl.bavaria.com/nl/nl/age-check.html/?RD=https://nl.bavaria.com/nl/nl.html/" target="_blank"><img src="bavaria.jpeg"></a>
+		<a href="https://nl.bavaria.com/nl/nl/age-check.html/?RD=https://nl.bavaria.com/nl/nl.html/" target="_blank"><img src="bavaria.jpeg"></a>
+		<a href="https://nl.bavaria.com/nl/nl/age-check.html/?RD=https://nl.bavaria.com/nl/nl.html/" target="_blank"><img src="bavaria.jpeg"></a>
+
+		
+
+	</div>
+
+	<div class="horseblock">
+		<h4>Donut</h4>
+		<img class="horseblockpic" src="horse1.jpeg">
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<a href="horse1.html"><button>More Info</button></a><div class="box"><iframe src="horse1.html" width = "1000px" height = "500px"></iframe></div>
+		<p>
+	</div>
+
+	<div class="horseblock">
+		<h4 >Koffie</h4>
+		<img class="horseblockpic" src="horse3.jpeg"></img>
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<button>More Info</button>
+		<button class = "goAway">go away</button>
+		<button class = "comeBack">come back</button>
+	</div>
+
+	<div class="horseblock">
+		<h4>Donut</h4>
+		<img class="horseblockpic" src="horse1.jpeg">
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<a href="horse1.html"><button>More Info</button></a>
+
+
+	</div>
+
+	<div class="horseblock">
+		<h4 >Koffie</h4>
+		<img class="horseblockpic" src="horse3.jpeg"></img>
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<button>More Info</button>
+	</div>
+<div class="horseblock">
+		<h4>Donut</h4>
+		<img class="horseblockpic" src="horse1.jpeg">
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<a href="horse1.html"><button>More Info</button></a>
+
+
+	</div>
+
+	<div class="horseblock">
+		<h4 >Koffie</h4>
+		<img class="horseblockpic" src="horse3.jpeg"></img>
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<button>More Info</button>
+	</div>
+<div class="horseblock">
+		<h4>Donut</h4>
+		<img class="horseblockpic" src="horse1.jpeg">
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<a href="horse1.html"><button>More Info</button></a>
+
+
+	</div>
+
+	<div class="horseblock">
+		<h4 >Koffie</h4>
+		<img class="horseblockpic" src="horse3.jpeg"></img>
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<button>More Info</button>
+	</div>
+<div class="horseblock">
+		<h4>Donut</h4>
+		<img class="horseblockpic" src="horse1.jpeg">
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<a href="horse1.html"><button>More Info</button></a>
+
+
+	</div>
+
+	<div class="horseblock">
+		<h4 >Koffie</h4>
+		<img class="horseblockpic" src="horse3.jpeg"></img>
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<button>More Info</button>
+	</div>
+
+	<div class="horseblock">
+		<h4 >Koffie</h4>
+		<img class="horseblockpic" src="horse3.jpeg"></img>
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<button>More Info</button>
+	</div>
+<div class="horseblock">
+		<h4>Donut</h4>
+		<img class="horseblockpic" src="horse1.jpeg">
+		<p>
+		Date of birth:<br>
+		Length:<br>
+		Height:<br>
+		MotherName:<br>
+		FatherName:<br>
+		</p>
+		<br>
+		<a href="horse1.html"><button>More Info</button></a>
+
+
+</body>
+</html>

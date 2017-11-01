@@ -1,0 +1,138 @@
+
+body{
+	background: darkblue;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	color: white;
+	background-color: darkblue;
+	height: 100px;
+	width: 1780px;
+	padding: 20px;
+	border:dotted;
+
+}
+
+#dummie{
+	height: 140px;
+}
+
+#leftblockdummie{
+	float: left;
+	width: 400px;
+	height: 5000px;
+}
+#rightblockdummie{
+	float: right;
+	width: 200px;
+	height: 2000px;
+
+}
+
+h1{
+	color: gold;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 80px;
+
+
+}
+h2{
+	color: gold;
+	text-align: center;
+
+}
+
+
+#leftblock{
+	position: fixed;
+	color: gold;
+	background-color: darkblue;
+	height:1000px;
+	width:300px;
+	padding: 20px;
+
+
+}
+
+#rightblock{
+	position: fixed;
+	right: 0px;
+	color: white;
+	background-color: darkblue;
+	height:1000px;
+	width:300px;
+	padding: 20px;
+
+
+}
+
+div1 {
+	margin-top: 0;
+	position: fixed;
+	top: 0;
+}
+
+.horseblock{
+	float: left;
+	color: black;
+	background-color: lightblue;
+	
+	width: 260px;
+	height: 450px;
+
+	margin:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;	
+	border-width: 2px;
+	border:solid;
+	border-color: black;
+
+}
+.horseblock:hover{
+	background-color: blue;
+	border-color: lightblue;
+	}
+
+
+img{
+	height: 200px;
+	width: 260px;
+	border:solid;
+	border-color: black;
+}
+
+h4{
+	color: black;
+	text-align: center;
+
+
+}
+
+button{
+	color:lightblue;
+	background-color: darkblue;
+	border-color: darkblue;
+
+	width: 260px;
+
+}
+
+button:link{
+	color: red;
+}
+
+button:visited{
+	color: green;
+}
+button:hover{
+	color: darkblue;
+	background-color: lightblue;
+}
+button:active{
+	color: blue;
+
+}

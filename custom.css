@@ -1,0 +1,163 @@
+html , body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+body{
+	background-color:darkblue; 
+	height: 100%;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	color: white;
+	background-color: darkblue;
+	height: 10%;
+	width: 100%;
+	padding: 1%;
+	border:dotted;
+
+}
+
+#dummie{
+	height: 15%;
+	width: 100%;
+}
+
+#leftblockdummie{
+	float: left;
+	width: 20%;
+	height: 200%;
+}
+#rightblockdummie{
+	float: right;
+	width: 20%;
+	height: 200%;
+
+}
+
+h1{
+	color: gold;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 80px;
+
+
+}
+h2{
+	color: gold;
+	text-align: center;
+
+}
+
+
+#leftblock{
+	position: fixed;
+	color: gold;
+	background-color: darkblue;
+	height:100%;
+	width:15%;
+	padding: 1%;
+
+
+}
+
+#rightblock{
+	position: fixed;
+	right: 0%;
+	color: white;
+	background-color: darkblue;
+	height:100%;
+	width:15%;
+	padding: 1%;
+
+
+}
+
+div1 {
+	margin-top: 0;
+	position: fixed;
+	top: 10px;
+}
+
+.horseblock{
+	float: left;
+	color: black;
+	background-color: lightblue;
+	
+	width: 15%;
+	height: 40%;
+
+	margin:1%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 2%;	
+	border-width: 2px;
+	border:solid;
+	border-color: black;
+
+}
+.horseblock:hover{
+	background-color: blue;
+	border-color: lightblue;
+	}
+
+
+img{
+	height: 200px;
+	width: 260px;
+	border:solid;
+	border-color: black;
+}
+.horseblockpic{
+	height: 40%;
+	width: 100%;
+}
+
+h4{
+	color: black;
+	text-align: center;
+
+
+}
+
+button{
+	color:lightblue;
+	background-color: darkblue;
+	border-color: darkblue;
+	width: 100%;
+}
+
+button:link{
+	color: red;
+}
+
+button:visited{
+	color: green;
+}
+button:hover{
+	color: darkblue;
+	background-color: lightblue;
+}
+button:active{
+	color: blue;
+
+}

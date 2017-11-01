@@ -1,0 +1,24 @@
+<FORM action=" ">
+	<input type="text" value="username" name="">
+
+
+</FORM>
+<button id="thebutton">Submit</button>
+
+<h1 id = "welcome"> Welcome Message</h1>
+
+<script type="text/javascript">
+	
+	document.getElementById("thebutton").onclick= submit
+
+	function submit(){
+		var x = document.getElementsByTagName("input")[0].value 
+		if (x === "bacon"){
+			document.getElementById("welcome").innerHTML = "bacon is good for me"
+		} else if(x === "chicken"){
+			document.getElementById("welcome").innerHTML = "a chicken a day keeps the doctors away"
+	}
+}
+
+
+</script>

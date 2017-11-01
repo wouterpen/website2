@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+	<table>
+		<tbody>
+			<tr> Username:</tr>
+			<tr> <input type="text" value="username" name=""> </tr>
+			<tr> Email:</tr>
+			<tr> <input type="text" value="email" name=""></tr>
+			<tr> Password:</tr>
+			<tr><input type="password" value="password" name=""></tr>
+		</tbody>
+	</table>
+	</form>
+
+<button id="thebutton">Submit</button>
+<h1 id = "welcome"> Welcome Message</h1>
+
+<script type="text/javascript">
+	
+	document.getElementById("thebutton").onclick= submit
+
+	function submit(){
+		
+		var x = document.getElementsByTagName("input")[0].value 
+		var y = document.getElementsByTagName("input")[2].value
+		if (x === "bacon1" && checkUsername(x) && password_01(y)){
+			document.getElementById("welcome").innerHTML = "you have chosen the right password, you may proceed"
+		} else {
+			document.getElementById("welcome").innerHTML = "That is not correct you noob"
+	}
+
+}
+
+
+	function password_01(){
+		var y = document.getElementsByTagName("input")[2].value
+		if (y == 12345678){
+			return true
+	
+	}
+		}
+
+	function checkUsername(x){
+		var x = document.getElementsByTagName("input")[0].value 
+		return (/\d/.test(x))
+	}
+	
+	
+
+
+</script>
+</body>
+</html>
